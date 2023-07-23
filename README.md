@@ -7,45 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Commands used
-
-### Create models, Tables and Migrations
-
-1. php artisan make:model Product -m
-2. php artisan migrate
-
-### Create Controllers
-
-3. php artisan make:controller ProductController
-4. php artisan migrate
-
-### Files Created manually
-
-1. layouts/app.blade.php
-2. products/create.blade.php
-3. products/edit.blade.php
-4. products/index.blade.php
-5. products/show.blade.php
-6. products/store.blade.php
-
-### Files Created Automatically (By running some commands)
-
-1. app/Http/Controllers/ProductController.php
-2. app/Http/Models/User.php
-3. app/database/migrations/create_products_table.php
-4. app/public/products/images.png
-
-### Files utilized
-
-1. app/Http/Controllers/ProductController.php
-2. app/Providers/AppService/Providers.php
-3. app/database/migrations/create_products_table.php
-4. app/routes/web.php
-5. app/resources/views/layouts/app.blade.php
-
-6. app/resources/views/products/create.blade.php
-7. app/resources/views/products/edit.blade.php
-8. app/resources/views/products/index.blade.php
-9. app/resources/views/products/show.blade.php
-10. app/resources/views/products/store.blade.php
+# CRUD APP Laravel
+The CRUD application that allows user to Create/Add new products, View details, Update details and also Deleting details. This app uses HTML, CSS as Front-End and Laravel Framework in Back-End.
 
