@@ -11,14 +11,23 @@
 The CRUD application that allows user to Create/Add new products, View details, Update details and also Deleting details. This app uses HTML, CSS as Front-End and Laravel Framework in Back-End.
 
 ## Installation
-1. Make sure you have installed Laravel, using Composer.
-2. Install project using `https://github.com/Krish123-lang/Laravel-CRUD.git`. This will clone the project in your system.
-3. Then use
-   `cd crud`
-   `php artisan migrate`
-4. This will create necessary database migrations.
-5. To run the project, run `php artisan serve` in terminal.
+<ul>
+    <li>Clone the Repo: <br> </li>
+    <li style=""> > git clone https://github.com/Krish123-lang/Laravel-CRUD.git</li>
+    <li> > cd Laravel-CRUD</li>
+    <li> > composer install or composer update</li>
+    <li> > cp .env.example .env</li>
+    <li> > Set up .env file</li>
+    <li> > php artisan key:generate</li>
+    <li> > php artisan storage:link</li>
+    <li> > php artisan migrate</li>
+    <li> > php artisan migrate:fresh --seed</li>
+    <li> > php artisan serve</li>
+    <li> <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> </li>
+</ul>
+
 6. You may see this page
+
 ![Screenshot (110)](https://github.com/Krish123-lang/Laravel-CRUD/assets/56486342/1367b931-f6ae-4cb3-8aa5-e18287601f24)
 
 7. Click on Add Product
