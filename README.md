@@ -17,7 +17,7 @@ The CRUD application that allows user to Create/Add new products, View details, 
     <li> <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> </li>
 </ul>
 
-6. You may see this page
+* You may see this page
 
 ![Screenshot (110)](https://github.com/Krish123-lang/Laravel-CRUD/assets/56486342/1367b931-f6ae-4cb3-8aa5-e18287601f24)
 
